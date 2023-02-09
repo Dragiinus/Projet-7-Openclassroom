@@ -5,7 +5,7 @@ import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Projet-7-Openclassroom/Public/index.html">
     <React.StrictMode>
       <App />
     </React.StrictMode>
