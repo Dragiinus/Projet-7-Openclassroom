@@ -1,4 +1,4 @@
-import classes from './404NotFound';
+import classes from './NotFound.module.css';
 
 const NotFound = (props) => {
   return (

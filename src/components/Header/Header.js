@@ -1,13 +1,12 @@
-import classes from  "./Header.css";
+import classes from "./Header.module.css";
 import pinkLogo from "../../assets/images/logos/kasa-logo-pink.svg";
 import { Link, NavLink } from "react-router-dom";
-
 
 const Header = (props) => {
   return (
     <header>
       <div>
-      <Link to="/">
+        <Link to="/">
           <img
             className={classes.header_logo}
             src={pinkLogo}

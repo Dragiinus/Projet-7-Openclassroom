@@ -1,9 +1,9 @@
-import Header from "../components/Header/Header";
-import Banner from "../components/Banniere/Banniere";
-import Gallery from "../components/Gallerie/Gallerie";
-import useFetch from "./hooks/useFetch";
-import shoreline from "../assets/images/photos/shoreline.png";
-import Footer from "../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Banner from "../../components/Banner/Banner";
+import Gallery from "../../components/Gallery/Gallery";
+import useFetch from "../hooks/useFetch";
+import shoreline from "../../assets/images/photos/shoreline.png";
+import Footer from "../../components/Footer/Footer";
 
 const Home = (props) => {
   const { data, hasError, errorType, isLoading } = useFetch("/logements.json");
