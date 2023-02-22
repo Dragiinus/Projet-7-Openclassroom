@@ -4,7 +4,6 @@ import Card from "../Card/Card";
 import classes from './Gallery.module.css';
 const Gallery = (props) => {
   if (props.hasError) {
-    console.log(props.errorType);
     return <div className={classes.error}>Une erreur est survenue...</div>;
   }
   return (
