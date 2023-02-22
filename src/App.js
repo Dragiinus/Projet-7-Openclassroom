@@ -13,7 +13,6 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      
     </div>
   );
 }

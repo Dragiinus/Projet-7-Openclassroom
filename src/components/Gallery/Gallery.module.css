@@ -32,3 +32,9 @@
       border-radius: 2.5rem;
     }
   }
+
+  @media screen and (max-width : 375px) {
+    .gallery_wrapper {
+      grid-template-columns: none;
+    }
+  }
