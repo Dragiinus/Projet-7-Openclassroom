@@ -1,5 +1,5 @@
-import classes from './Footer.module.css';
-import whiteLogo from '../../assets/images/logos/kasa-logo-white.svg';
+import classes from '../styles/components/Footer.module.css';
+import whiteLogo from '../assets/images/logos/kasa-logo-white.svg';
 
 const Footer = (props) => {
   return (

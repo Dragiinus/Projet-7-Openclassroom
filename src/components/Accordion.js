@@ -1,7 +1,7 @@
-import classes from './Accordion.module.css';
+import classes from '../styles/components/Accordion.module.css';
 import { useState } from "react";
-import { ReactComponent as ArrowUp } from "../../assets/images/icons/chevron-up.svg";
-import { ReactComponent as ArrowDown } from "../../assets/images/icons/chevron-down.svg";
+import { ReactComponent as ArrowUp } from "../assets/images/icons/chevron-up.svg";
+import { ReactComponent as ArrowDown } from "../assets/images/icons/chevron-down.svg";
 const Accordion = (props) => {
   const [open, setOpen] = useState(false);
 

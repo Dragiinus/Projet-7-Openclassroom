@@ -1,5 +1,5 @@
-import classes from './Rating.module.css';
-import Star from "../../components/Star/Star";
+import classes from '../styles/components/Rating.module.css';
+import Star from "./Star";
 
 const getStarsColor = (total, rate) => {
   let number = rate;

@@ -1,9 +1,9 @@
-import './App.css';
+import './styles/App.module.css';
 import {Routes, Route} from 'react-router-dom';
-import Home from './containers/Home/Home';
-import Housing from './containers/Housing/Housing';
-import AboutUs from './containers/AboutUs/AboutUs';
-import NotFound from './containers/NotFound/NotFound';
+import Home from './containers/Home';
+import Housing from './containers/Housing';
+import AboutUs from './containers/AboutUs';
+import NotFound from './containers/NotFound';
 function App() {
   return (
     <div className="App">

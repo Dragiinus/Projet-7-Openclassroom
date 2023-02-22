@@ -1,5 +1,5 @@
-import classes from "./Header.module.css";
-import pinkLogo from "../../assets/images/logos/kasa-logo-pink.svg";
+import classes from "../styles/components/Header.module.css";
+import pinkLogo from "../assets/images/logos/kasa-logo-pink.svg";
 import { Link, NavLink } from "react-router-dom";
 
 const Header = (props) => {

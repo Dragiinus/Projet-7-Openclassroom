@@ -1,4 +1,4 @@
-import classes from './Host.module.css';
+import classes from '../styles/components/Host.module.css';
 const Host = (props) => {
   const [firstName, lastName] = props.name.split(" ");
   return (

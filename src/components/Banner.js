@@ -1,4 +1,4 @@
-import classes from "./Banner.module.css";
+import classes from "../styles/components/Banner.module.css";
 
 const Banner = (props) => {
   return (

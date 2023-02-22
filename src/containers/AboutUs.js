@@ -1,12 +1,12 @@
-import classes from './AboutUs.module.css';
-import Header from "../../components/Header/Header";
-import Banner from "../../components/Banner/Banner";
-import Footer from "../../components/Footer/Footer";
-import moutain from "../../assets/images/photos/moutain.png";
-import moutainMobile from "../../assets/images/photos/moutain_m.png";
-import Accordion from "../../components/Accordion/Accordion";
+import classes from '../styles/containers/AboutUs.module.css';
+import Header from "../components/Header";
+import Banner from "../components/Banner";
+import Footer from "../components/Footer";
+import moutain from "../assets/images/photos/moutain.png";
+import moutainMobile from "../assets/images/photos/moutain_m.png";
+import Accordion from "../components/Accordion";
 import { useEffect, useState } from "react";
-import useBrowserWidth from "../../containers/hooks/useBrowserWidth";
+import useBrowserWidth from "./hooks/useBrowserWidth";
 const AboutUs = (props) => {
   const dimension = useBrowserWidth();
   const [accordionFontSizeTitle, setAccordionFontSizeTitle] = useState();

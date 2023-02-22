@@ -1,6 +1,6 @@
-import classes from './NotFound.module.css';
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
+import classes from '../styles/containers/NotFound.module.css';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 const NotFound = (props) => {

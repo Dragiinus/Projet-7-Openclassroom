@@ -1,7 +1,7 @@
-import classes from "./Carousel.module.css";
+import classes from "../styles/components/Carousel.module.css";
 import { createRef, useEffect, useState } from "react";
-import { ReactComponent as ArrowLeft } from "../../assets/images/icons/chevron-left.svg";
-import { ReactComponent as ArrowRight } from "../../assets/images/icons/chevron-right.svg";
+import { ReactComponent as ArrowLeft } from "../assets/images/icons/chevron-left.svg";
+import { ReactComponent as ArrowRight } from "../assets/images/icons/chevron-right.svg";
 
 const Carousel = (props) => {
   const carouselRef = createRef(null);

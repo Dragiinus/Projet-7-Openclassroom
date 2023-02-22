@@ -1,16 +1,16 @@
-import classes from "./Housing.module.css";
+import classes from "../styles/containers/Housing.module.css";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import useFetch from "../hooks/useFetch";
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
-import Spinner from "../../components/Spinner/Spinner";
-import Carousel from "../../components/Carousel/Carousel";
-import Tag from "../../components/Tag/Tag";
-import Host from "../../components/Host/Host";
-import Rating from "../../components/Rating/Rating";
-import Accordion from "../../components/Accordion/Accordion";
-import useBrowserWidth from "../hooks/useBrowserWidth";
+import useFetch from "./hooks/useFetch";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Spinner from "../components/Spinner";
+import Carousel from "../components/Carousel";
+import Tag from "../components/Tag";
+import Host from "../components/Host";
+import Rating from "../components/Rating";
+import Accordion from "../components/Accordion";
+import useBrowserWidth from "./hooks/useBrowserWidth";
 
 const Housing = (props) => {
   const { housingId } = useParams();

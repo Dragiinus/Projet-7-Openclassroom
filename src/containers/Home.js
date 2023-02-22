@@ -1,9 +1,9 @@
-import Header from "../../components/Header/Header";
-import Banner from "../../components/Banner/Banner";
-import Gallery from "../../components/Gallery/Gallery";
-import useFetch from "../hooks/useFetch";
-import shoreline from "../../assets/images/photos/shoreline.png";
-import Footer from "../../components/Footer/Footer";
+import Header from "../components/Header";
+import Banner from "../components/Banner";
+import Gallery from "../components/Gallery";
+import useFetch from "./hooks/useFetch";
+import shoreline from "../assets/images/photos/shoreline.png";
+import Footer from "../components/Footer";
 
 const Home = (props) => {
   const { data, hasError, errorType, isLoading } = useFetch("https://dragiinus.github.io/Projet-7-Openclassroom/src/assets/api/logement.json");

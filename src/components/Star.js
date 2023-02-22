@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import useBrowserWidth from "../../containers/hooks/useBrowserWidth";
+import useBrowserWidth from "../containers/hooks/useBrowserWidth";
 
 const Star = ({ color = "#E3E3E3" }) => {
   const dimension = useBrowserWidth();

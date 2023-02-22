@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Spinner from "../Spinner/Spinner";
-import Card from "../Card/Card";
-import classes from './Gallery.module.css';
+import Spinner from "./Spinner";
+import Card from "./Card";
+import classes from '../styles/components/Gallery.module.css';
 const Gallery = (props) => {
   if (props.hasError) {
     return <div className={classes.error}>Une erreur est survenue...</div>;

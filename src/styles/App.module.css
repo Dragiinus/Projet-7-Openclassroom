@@ -6,7 +6,7 @@
   @font-face {
     font-family: 'Montserrat';
     src: local("Montserrat"),
-         url(./assets/fonts/Montserrat-Medium.ttf);
+         url(../assets/fonts/Montserrat-Medium.ttf);
   }
   html {
     font-size: 62.5%;
