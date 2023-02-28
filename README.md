@@ -6,6 +6,8 @@
 
 + Lancer le serveur avec ' npm start ' ;
 
++ Ouvrez la page dans le navigateur à l'adresse suivante si elle ne s'affiche pas automatiquement : http://localhost:3000/
+
 ## Description
 
 + Contexte :
