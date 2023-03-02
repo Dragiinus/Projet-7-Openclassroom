@@ -54,6 +54,14 @@
     }
   }
 
+  
+  @media screen and (max-width : 425px) {
+    .gallery_wrapper {
+      margin-top: 2rem;
+      row-gap: 2rem;
+    }
+  }
+
   @media screen and (max-width : 375px) {
     .gallery_wrapper {
       grid-template-columns: none;
