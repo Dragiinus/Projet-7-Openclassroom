@@ -32,6 +32,9 @@ header {
     .header_logo {
       height: 4.303rem;
     }
+    header nav {
+      text-transform: uppercase;
+    }
     header nav a:nth-child(2) {
       margin-left: 1rem;
     }

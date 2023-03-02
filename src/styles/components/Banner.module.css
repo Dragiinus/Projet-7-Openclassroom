@@ -39,6 +39,10 @@
 /*** Medias Queries ***/
 @media screen and (max-width: 1040px) {
   .banner p {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: translate(0%, 0%);
     font-size: 3.2rem;
     font-weight: 500;
     line-height: 6.845rem;
@@ -54,12 +58,11 @@
     border-radius: 1rem;
   }
   .banner p {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     font-weight: 500;
     line-height: 2.4rem;
-    text-align: start;
-    /* margin-left: 1.6rem; */
-    width: 90%;
+    text-align: left;
+    margin-left: 1.6rem;
   }
   .banner_img {
     position: absolute;
@@ -68,8 +71,31 @@
     border-radius: 1rem;
   }
 }
-@media screen and (max-width: 390px) {
+
+@media screen and (max-width: 425px) {
+  .banner p{
+    width: 65%;
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
   .banner_img {
     object-position: -120px 0px;
+  }
+
+  .banner p{
+    width: 74%;
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .banner p{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 80%;
+    padding-left: 1rem;
   }
 }

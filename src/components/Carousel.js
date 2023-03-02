@@ -31,6 +31,15 @@ const Carousel = (props) => {
     position === props.pictures.length ? setPosition(1) : setPosition(position + 1);
   };
 
+  const navDisplay = () => {
+    if (props.pictures.length >= 2) {
+      return (
+        <div className={classes.carousel_counter}>
+        {position}/{props.pictures?.length}
+        </div>
+      )
+  }};
+
   return (
     <div className={classes.carousel_wrapper} ref={carouselRef}>
       {props.pictures.length > 1 && (
@@ -52,16 +61,13 @@ const Carousel = (props) => {
         />
       ))}
 
-      <p className={classes.carousel_counter}>
-        {position}/{props.pictures.length}
-      </p>
-
       {props.pictures.length > 1 && (
         <ArrowRight
           className={classes.carousel_arrowRight}
           onClick={() => handleClickNext()}
         />
       )}
+      {navDisplay()}
     </div>
   );
 };
