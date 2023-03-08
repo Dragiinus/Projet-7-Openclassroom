@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Projet-7-Openclassroom/static/css/main.0a2e4e81.css",
-    "main.js": "/Projet-7-Openclassroom/static/js/main.8d15cc32.js",
+    "main.js": "/Projet-7-Openclassroom/static/js/main.1a0d4c89.js",
     "static/media/moutain.png": "/Projet-7-Openclassroom/static/media/moutain.791fd750b315b1f022f2.png",
     "static/media/shoreline.png": "/Projet-7-Openclassroom/static/media/shoreline.1564f1df27b6dc85eba6.png",
     "static/media/moutain_m.png": "/Projet-7-Openclassroom/static/media/moutain_m.0f497da884ce22afd509.png",
@@ -14,10 +14,10 @@
     "static/media/chevron-down.svg": "/Projet-7-Openclassroom/static/media/chevron-down.18426cfa25b94103e78abf14a6463715.svg",
     "static/media/chevron-right.svg": "/Projet-7-Openclassroom/static/media/chevron-right.8d9545cb18f67cea4ffddb888aa4dcb0.svg",
     "main.0a2e4e81.css.map": "/Projet-7-Openclassroom/static/css/main.0a2e4e81.css.map",
-    "main.8d15cc32.js.map": "/Projet-7-Openclassroom/static/js/main.8d15cc32.js.map"
+    "main.1a0d4c89.js.map": "/Projet-7-Openclassroom/static/js/main.1a0d4c89.js.map"
   },
   "entrypoints": [
     "static/css/main.0a2e4e81.css",
-    "static/js/main.8d15cc32.js"
+    "static/js/main.1a0d4c89.js"
   ]
 }
