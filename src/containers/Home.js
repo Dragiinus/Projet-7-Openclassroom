@@ -6,7 +6,7 @@ import shoreline from "../assets/images/photos/shoreline.png";
 import Footer from "../components/Footer";
 
 const Home = (props) => {
-  const { data, hasError, errorType, isLoading } = useFetch("https://dragiinus.github.io/Projet-7-Openclassroom/src/assets/api/logement.json");
+  const { data, hasError, errorType, isLoading } = useFetch("https://dragiinus.github.io/Projet-7-Openclassroom/static/logement.json");
 
   return (
     <>

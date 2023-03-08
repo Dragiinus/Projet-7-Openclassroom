@@ -14,7 +14,7 @@ import useBrowserWidth from "./hooks/useBrowserWidth";
 
 const Housing = (props) => {
   const { housingId } = useParams();
-  const { data, hasError, errorType, isLoading } = useFetch("https://dragiinus.github.io/Projet-7-Openclassroom/src/assets/api/logement.json");
+  const { data, hasError, errorType, isLoading } = useFetch("https://dragiinus.github.io/Projet-7-Openclassroom/static/logement.json");
   const [housingChoice, setHousingChoice] = useState();
   const dimension = useBrowserWidth();
   const [height, setHeight] = useState();
